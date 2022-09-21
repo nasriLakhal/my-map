@@ -4568,50 +4568,6 @@
          "y":0
         }, 
         {
-         "draworder":"topdown",
-         "id":20,
-         "name":"floorLayer",
-         "objects":[
-                {
-                 "class":"variable",
-                 "height":0,
-                 "id":12,
-                 "name":"my_door",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"closeLayer",
-                         "type":"string",
-                         "value":"closed_door"
-                        }, 
-                        {
-                         "name":"default",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"door",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"openLayer",
-                         "type":"string",
-                         "value":"opened_door"
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":0,
-                 "x":156,
-                 "y":315
-                }],
-         "opacity":1,
-         "type":"objectgroup",
-         "visible":true,
-         "x":0,
-         "y":0
-        }, 
-        {
          "id":114,
          "layers":[
                 {
@@ -4891,6 +4847,50 @@
          "name":"SRM.BIG",
          "opacity":1,
          "type":"group",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":20,
+         "name":"floorLayer",
+         "objects":[
+                {
+                 "class":"variable",
+                 "height":0,
+                 "id":12,
+                 "name":"my_door",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"closeLayer",
+                         "type":"string",
+                         "value":"closed_door"
+                        }, 
+                        {
+                         "name":"default",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"door",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"openLayer",
+                         "type":"string",
+                         "value":"opened_door"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":0,
+                 "x":156,
+                 "y":315
+                }],
+         "opacity":1,
+         "type":"objectgroup",
          "visible":true,
          "x":0,
          "y":0
