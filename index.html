@@ -12,7 +12,6 @@
     <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
     <title>Menaps</title>
     <script>
-        alert('Menaps');
         window.onload = function () {
             const host = window.location.host;
             let path = window.location.pathname;
@@ -20,12 +19,12 @@
                 path = path.substr(path, path.length - 'index.html'.length);
             }
             const instanceId = Math.random().toString(36).substring(2, 15);
-            const url = `https://play.workadventu.re/_/${instanceId}/${host}${path}map.json`;
+            const url = `https://play.workadventu.re/_/${instanceId}/${host}${path}map5.json`;
             document.getElementById('testMapURL').href = url;
             document.getElementById('testMapBtnURL').href = url;
             document.getElementById('testMapURL').innerText = url;
 
-            const jsonURL = window.location.protocol + '//' + window.location.host + path + 'map.json';
+            const jsonURL = window.location.protocol + '//' + window.location.host + path + 'map5.json';
             document.getElementById('jsonURL').innerText = jsonURL;
 
             const gettingStartedLink = 'https://workadventu.re/getting-started?name=Map&mapUrl=' + jsonURL;
@@ -40,6 +39,7 @@
             max-width: 800px;
             margin: auto !important;
             text-align: center;
+            background-color: #142C62;
         }
 
         h1,
@@ -181,12 +181,12 @@
 <body>
     <header>
         <div class="logo">
-            <a href="https://workadventu.re/" target="_blank" title="workadventure"><img
-                    src="https://workadventu.re/images/general/logo.svg" alt="WorkAdventure logo" /></a>
+            <a href="https://www.menaps.com/fr/" target="_blank" title="Menaps"><img
+                    src="https://www.menaps.com/wp-content/uploads/2021/09/brandmark-design-5-1-1.png" alt="Menaps" /></a>
         </div>
     </header>
     <main>
-        <div class="nes-container with-title is-centered" style="margin-top: 3rem">
+        <!-- <div class="nes-container with-title is-centered" style="margin-top: 3rem">
             <p class="title">Useful links</p>
             <div class="content">
                 <div class="socials">
@@ -217,23 +217,23 @@
                         community</a>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div class="nes-container with-title is-centered" style="margin-top: 1rem">
-            <p class="title">Test this map</p>
+            <p class="title">Menaps</p>
             <p>You can test this map at <a id="testMapURL" href="" class="url"></a></p>
-            <p><a id="testMapBtnURL" href="" class="nes-btn is-primary">Test this map</a></p>
+            <p><a id="testMapBtnURL" href="" class="nes-btn is-primary">Menaps World</a></p>
         </div>
 
-        <div class="nes-container with-title is-centered" style="margin-top: 1rem">
+        <!-- <div class="nes-container with-title is-centered" style="margin-top: 1rem">
             <p class="title">Happy with the result?</p>
             <p>Register your room on Workadventu.re</p>
             <p><a id="gettingStartedLink" href="" class="nes-btn is-primary">Publish this map</a></p>
             <p>or copy and paste the map URL in WorkAdventu.re's administration panel:</p>
             <p><span id="jsonURL" class="url"></span></p>
-        </div>
+        </div> -->
     </main>
-    <footer><a href="https://workadventu.re/" target="_blank" title="workadventu.re">&copy; WorkAdventure</a></footer>
+    <footer><a href="https://www.menaps.com/fr/" target="_blank" title="workadventu.re">&copy; Menaps</a></footer>
 </body>
 
 </html>
